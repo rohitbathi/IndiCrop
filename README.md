@@ -20,3 +20,6 @@ The dataset consists of about 2200 entries of crop recorded with the particular 
 ### Building machine learning model
 The machine learning algorithm used to build this model is the Random Forest Classifier. We have set the parameters of the Random Forest Classifier model as 100 n estimators with 
 maximum tree depth of 3 and minimum sample of leaf as 4 and random state of 0.
+
+### Preview of webpage
+![This is preview of webpage](/Public/assets/images/WebpagePreview.png)
