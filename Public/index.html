@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <h2 id="title">
+        <span 
+          style="text-decoration: underline;
+                 text-decoration-color: #32CD32;">Indi
+        </span>
+        <span 
+          style="text-decoration: underline;
+                 text-decoration-color: #32CD32;">Crop
+        </span>
+      </h2>
+    </div>
+    <div class="content">
+        <p id="content-text">
+            IndiCrop is a web application which aids the local government organizations
+            of the place to be able to predict the type of crop which
+            can be grown in the particular soil sample whose is tested
+            and found out factors of.<br><br>The user needs to enter the 
+            values of the following parameters collected from the soil sample.
+        </p>
+        <div id="result">
+            
+        </div>
+    </div>
+    <form method="post" id="dataForm">
+        <input type="number" name="N" id="N" placeholder="Nitrogen Level">
+        <input type="number" name="P" id="P" placeholder="Phosphorus Level">
+        <input type="number" name="K" id="K" placeholder="Potassium Level">
+        <input type="number" step="any" name="temperature" id="temperature" placeholder="temperature">
+        <input type="number" step="any" name="humidity" id="humidity" placeholder="humidity">
+        <input type="number" step="any" name="pH" id="pH" placeholder="pH Level">
+        <input type="number" step="any" name="rainfall" id="rainfall" placeholder="rainfall">
+        <button type="submit">Predict</button>
+    </form>
+    <script src="./js/prediction.js"></script>
+  </body>
+</html>
